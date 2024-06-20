@@ -1,0 +1,277 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsla(0, 0%, 92%, 0.835);
+}
+
+.shape {
+    position: relative;
+    left: -60px;
+    height: 550px;
+    width: 400px;
+    background: rgb(136,56,255);
+    background: linear-gradient(29deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
+    border-radius: 0px 0px 250px 250px;
+} 
+
+.shape2 {
+    position: absolute;
+    right: 0px;
+    top: 19vw;
+    height: 568px;
+    width: 260px;
+    background-color: hsla(273, 70%, 88%, 0.39);
+    border-radius: 250px 20px 0px 0px;
+}
+
+.phone {
+    top: 8vw;
+    left: 18.7vw;
+    position: absolute;
+    height: 570px;
+    width: 290px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.194);
+}
+
+.phone::before{
+    position: absolute;
+    content: "";
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    height: 91%;
+    top: 7%;
+    width: 92%;
+    left: 4%;
+}
+
+.notch {
+    position: relative;
+    top: 0%;
+    left: 27%;
+    height: 25px;
+    width: 130px;
+    background-color: white;
+    border-radius: 0px 0px 13px 13px;
+    z-index: 10;
+}
+
+.profile {
+    height: 70px;
+    position: absolute;
+    left: 4%;
+    top: 10px;
+    background: rgb(136,56,255);
+    background: linear-gradient(29deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
+    width: 92%;
+    border-radius: 20px 20px 10px 10px;
+}
+
+.avatar {
+    position: relative;
+    height: 25px;
+    border-radius: 17.5px;
+    top: 30px;
+    left: 20px;
+    border: 1px white solid;
+}
+
+.name {
+    position: relative;
+    color: white;
+    top: 15px;
+    left: 30px;
+    font-size: 13px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.statue {
+    position: relative;
+    top: 30px;
+    right: 55px;
+    color: rgba(255, 255, 255, 0.751);
+    font-size: 10px;
+}
+
+.menu {
+    position: absolute;
+    height: 2px;
+    width: 2px;
+    border-radius: 1px;
+    right: 13px;
+    top: 45px;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu::before {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 2px;
+    width: 2px;
+    border-radius: 1px;
+    top: -7px;
+    background-color: rgb(255, 255, 255);
+}
+
+.menu::after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    height: 2px;
+    width: 2px;
+    border-radius: 1px;
+    top: -35px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.msg1 , .msg2 , .msg3 , .msg4 , .msg5 , .msg6 , .msg7{
+    border-radius: 10px;
+    position: relative;
+    width: fit-content;
+    padding: 10px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 10px;
+    font-style: normal;
+
+}
+
+.msg1 , .msg2 , .msg5 {
+    color: hsl(276, 55%, 52%);
+    background-color: hsla(276, 100%, 80%, 0.25);
+    left: 7%;
+}
+
+.msg1 {
+    top: 12%;
+   
+}
+
+.msg2 {
+    top: 14%;
+}
+
+.dog {
+    position: relative;
+    height: 50px;
+    left: 37%;
+    top: 90px;
+    border-radius: 10px;
+    margin-right: 2px;
+
+}
+
+.msg3 , .msg4 {
+   background-color: white;
+}
+
+
+.msg3 {
+   bottom: -17%;
+   right: -48%; 
+}
+
+.msg4 {
+    bottom: -18%;
+    right: -59%;
+}
+
+.msg5 {
+    top: 21%;
+}
+
+.msg6 {
+    top: 22%;
+    left: 7%;
+}
+
+.msg7 {
+    top: 23%;
+    left: 7%;
+}
+
+.msg6 , .msg7 {
+    background: rgb(136,56,255);
+    background: linear-gradient(29deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
+    color: white;
+    width: 60%;
+
+}
+
+.price1 {
+    margin-left: 60px;
+
+}
+
+.price2 {
+    margin-left: 75px;
+}
+
+.price1 , .price2 {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.box {
+    position: relative;
+    background-color: white;
+    height: 38px;
+    font-size: 10px;
+    width: 88%;
+    left: 6%;
+    bottom: -24.5%;
+    border-radius: 19px;
+    
+}
+
+.box::before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    left: 86%;
+    top: 3px;  
+    background-color: hsl(271, 36%, 24%);
+}
+
+.boxtxt {
+    position: relative;
+    color: hsl(206, 6%, 79%);
+    font-size: 10px;
+    top: 27%;
+    left: 5%;
+}
+
+h1 , .boxtxt , p {
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+h1 {
+    position: absolute;
+    font-size: 40px;
+    top: 22vw;
+    left: 50%;
+    color: hsl(271, 36%, 24%);
+}
+
+p {
+    position: absolute;
+    max-width: 32vw;
+    top: 27vw;
+    left: 50%;
+}
+
